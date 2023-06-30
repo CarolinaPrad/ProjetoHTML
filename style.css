@@ -1,0 +1,13 @@
+img {
+    width: 300px;
+    border-radius: 16px;
+  }
+  
+.fundo {
+    text-align: justify;
+    margin: 50px ;
+}
+
+.contato{
+    text-align: center;
+}

@@ -3,212 +3,394 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Site Noticias</title>
-    <script src="https://kit.fontawesome.com/dae752371d.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta property="og:type" content="artigo">
+    <meta property="og:site_name" content="[Notícias SC Porto]"/>
+    <meta property=“og:title” content="[Notícias]"/>
+    <meta property="og:description" content="[Site de projeto em HTML da academia SoulCode+Porto"/>
+    <meta property="og:url" content="https://carolinaprad.github.io/ProjetoHTML/"/>
+    <meta property="og:image:width" content="1280" />
+    <meta property="og:image:height" content="640" />
+    <meta name=”twitter:url” content=”https://https://exemplo/”>
+    
+
+     <title>Notícias SC Porto</title>
+    <link rel=" stylesheet" href="style.css">
 
 </head>
 
 <body>
-    <header>
-        <fieldset>
-            <h4>
-                <nav>
-                    <div style="text-align: center;">
-                        <h1>Noticias diárias</h1>
-                        <a href="Notíciaislocais.html#noticias">Notícias Locais</a> &nbsp;
-                        <a href="Política.html#politica">Política</a> &nbsp;
-                        <a href="Esportes.html#esportes">Esportes</a> &nbsp;
-                        <a href="Entretenimento.html#entretenimento">Entretenimento</a> &nbsp;
-                    </div>
-                </nav>
-            </h4>
-        </fieldset>
-        </div>
+    <header class="fundo">
+        <h4>
+            <nav>
+                <div style="text-align: center;">
+                    <h1>Notícias SC Porto</h1>
+                    <a href="#Noticiaslocais">Notícias Locais</a> &nbsp;
+                    <a href="#Política">Política</a> &nbsp;
+                    <a href="#Esportes">Esportes</a> &nbsp;
+                    <a href="#Entretenimento">Entretenimento</a> &nbsp;
+                    <a href="#Assistavideos">Assista em Vídeos</a> &nbsp;
+
+
+
+                </div>
+            </nav>
+        </h4>
+        <hr />
+
+        <article>
+            <ul>
+                <h2 id="artigos">Artigos</h2>
+                <li><a href="terra.html">Descoberta no Espaço</a></li>
+                <li><a href="saude.html">Descoberta científica</a></li>
+                <li><a href="arte.html">Arte Desconhecida</a></li>
+                <li><a href="tecnologia.html">Tecnologia</a></li>
+                <li><a href="dinossauro.html">Descoberta Paleontológica</a></li>
+                <li><a href="mar.html">Descoberta nas profundezas</a></li>
+                <li><a href="robotica.html">Robótica</a></li>
+                <li><a href="natureza.html">Natureza</a></li>
+                <li><a href="leitura.html">Leitura imperdível</a></li>
+                <li><a href="energia.html">Energia Ilimitada</a></li>
+            </ul>
+
+        </article>
     </header>
 
 
-        
-        
-        
-    
-        <h3 id=Artigos>Artigos</h3>
+    <main class="fundo">
 
-        <table>
-            <article>
-                <td>
-                    <img width="250" height="150"
-                        src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/02/220209132643-01-proxima-d-exoplanet.jpg"
-                        alt="terra">
-                </td>
-                <td>
-                    <h5><a href="Terra.html#terra">Descoberta no espaço</a></h5>
-                    <small>
-                        Astrônomos anunciaram hoje a descoberta de um novo exoplaneta que possui<br>
-                         condições potencialmente adequadas para a vida. O planeta, chamado de "Aurora",<br>
-                          está localizado a apenas 20 anos-luz de distância da Terra e orbita uma estrela semelhante<br> ao nosso Sol. Os cientistas estão entusiasmados com a possibilidade de estudar esse<br> novo mundo em busca de sinais de vida extraterrestre.
-                    </small>
-                </td>
-            </article>
-        </table>
+        <article>
 
-        <table>
-            <article>
-                <td>
-                    <img width="250" height="150"
-                        src="https://i.ytimg.com/vi/rFWLQOuk8kE/maxresdefault.jpg" alt="saude">
-                </td>
-                <td>
-                    <h5><a href="saude.html#saude">Descoberta cientifica</a></h5>
-                    <small>
-                        Após anos de estudos e pesquisas, cientistas finalmente conseguiram desenvolver <br>uma vacina eficaz contra o resfriado comum. O novo imunizante foi projetado <br>para combater os diferentes tipos de vírus que causam o resfriado, proporcionando<br> imunidade de longa duração. Essa descoberta promete revolucionar a saúde pública <br>
-                        e reduzir significativamente os casos de resfriado em todo o mundo.
-                    </small>
-                </td>
-            </article>
-        </table>
+            <ul>
+                <h1></h1>
+                <h3><a href="Terra.html#terra">Descoberta no Espaço</a></h3>
+                <img width="250" height="200"
+                    src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/02/220209132643-01-proxima-d-exoplanet.jpg"
+                    alt="terra">
 
-        <table>
-            <article>
-                <td>
-                    <img width="250" height="150"
-                        src="https://img.freepik.com/fotos-premium/jardim-de-esculturas-modernas-com-esculturas-elegantes-e-abstratas-entre-flores-desabrochando_124507-141311.jpg"alt="arte">
-                </td>
-                <td>
-                    <h5><a href="arte.html">Arte desconhecida</a></h5>
-                    <small>
-                        Uma escultura surpreendente apareceu misteriosamente durante a noite em uma praça<br> movimentada da cidade. A obra, que retrata uma figura abstrata com mais de 10 metros<br> de altura, tem despertado a curiosidade e admiração dos transeuntes. A identidade do<br> artista ainda é desconhecida, deixando os moradores e autoridades locais intrigados com<br> o significado por trás dessa impressionante criação.
-                    </small>
-                </td>
-            </article>
-        </table>
+                <p class="artigo">
+                    Astrônomos anunciaram hoje a descoberta de um novo exoplaneta que possui<br>
+                    condições potencialmente adequadas para a vida. O planeta, chamado de "Aurora",<br>
+                    está localizado a apenas 20 anos-luz de distância da Terra e orbita uma estrela
+                    semelhante<br> ao nosso Sol. Os cientistas estão entusiasmados com a possibilidade de
+                    estudar esse<br> novo mundo em busca de sinais de vida extraterrestre.
+                </p>
 
-        <table>
-            <article>
-                <tr>
-                    <td>
-                        <img width="250" height="150"
-                            src="https://t2.tudocdn.net/368899?w=1920"
-                            alt="tecnologia">
-                    </td>
-                    <td>
-                        <h5><a href="tecnologia.html">Tecnologia</a></h5>
-                        <small>
-                            Uma renomada empresa de tecnologia revelou seu mais recente avanço: um smartphone holográfico.<br> O dispositivo revolucionário projeta imagens tridimensionais no ar, permitindo que os usuários interajam<br> com aplicativos, jogos e conteúdo de uma maneira totalmente nova. Com essa inovação, a empresa<br> promete transformar a experiência dos smartphones e abrir caminho para uma nova era de interfaces de usuário.
-                        </small>
-                    </td>
-            </article>
-        </table>
+            </ul>
 
-        <table>
-            <article>
-                <td>
-                    <img width="250" height="150"
-                        src="https://f.i.uol.com.br/fotografia/2019/06/26/15615557525d13732887d95_1561555752_3x2_md.jpg"
-                        alt="dinossauro">
-                </td>
-                <td>
-                    <h5><a href="dinossauro.html">Descoberta Paleontológica</a></h5>
-                    <small>
-                        Um adolescente prodígio da área de paleontologia fez uma descoberta notável ao identificar uma nova espécie<br>de dinossauro. Com apenas 16 anos, o estudante encontrou fósseis de um animal pré-histórico até então<br> desconhecido, que agora recebeu o nome científico de "Megaraptor juvenilis". Essa descoberta está ajudando<br> os cientistas a entender melhor a diversidade dos dinossauros e seu contexto evolutivo.
-                    </small>
-                </td>
+            <ul>
+                <h3><a href="saude.html#saude">Descoberta científica</a></h3>
+                <img width="250" height="200"
+                    src="https://images.unsplash.com/photo-1631549916768-4119b2e5f926?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1179&q=80"
+                    alt="saude">
 
-            </article>
-        </table>
+                <p>
+                    Após anos de estudos e pesquisas, cientistas finalmente conseguiram desenvolver <br>uma
+                    vacina
+                    eficaz contra o resfriado comum. O novo imunizante foi projetado <br>para combater os
+                    diferentes
+                    tipos de vírus que causam o resfriado, proporcionando<br> imunidade de longa duração. Essa
+                    descoberta promete revolucionar a saúde pública <br>
+                    e reduzir significativamente os casos de resfriado em todo o mundo.
+                </p>
+            </ul>
 
-        <table>
-            <article>
-                <td>
-                    <img width="250" height="150"
-                        src="https://nomadesdigitais.com/wp-content/uploads/2014/05/sub1.jpg"
-                        alt="mar">
-                </td>
-                <td>
-                    <h5><a href="mar.html">Descoberta nas profundezas</a></h5>
-                    <small>
-                        Uma expedição científica revelou a existência de uma cidade submarina surpreendente localizada nas profundezas<br>do oceano. A cidade, batizada de "Atlântis Profunda", possui uma arquitetura deslumbrante e estruturas impressionantes,<br> sugerindo uma civilização avançada que existiu há milênios. A descoberta está intrigando arqueólogos e pesquisadores<br> marinhos, que agora estão empenhados em desvendar os segredos dessa antiga metrópole submersa.
-                    </small>
-                </td>
-            </article>
-        </table>
+            <ul>
+                <h3><a href="arte.html">Arte desconhecida</a></h3>
+                <img width="250" height="200"
+                    src="https://img.freepik.com/fotos-premium/jardim-de-esculturas-modernas-com-esculturas-elegantes-e-abstratas-entre-flores-desabrochando_124507-141311.jpg"
+                    alt="arte">
 
-        <table>
-            <article>
-                <td>
-                    <img width="250" height="150" src="https://integrabauru.com.br/wp-content/uploads/2020/01/imagem-cirurgia-robotica.jpg"alt="robotica">
-                </td>
-                <td>
-                    <h5><a href="robotica.html">Robótica</a></h5>
-                    <small>
-                        A robótica médica alcançou um novo patamar com o desenvolvimento de robôs autônomos capazes de realizar cirurgias<br> complexas com precisão e segurança. Esses robôs cirúrgicos avançados possuem algoritmos sofisticados e sensores<br> avançados que lhes permitem executar procedimentos delicados com maior eficiência e menor risco de erro humano.<br> A introdução desses robôs autônomos na medicina tem o potencial de revolucionar a área cirúrgica e melhorar<br> os resultados para os pacientes.
-                    </small>
-                </td>
-            </article>
-        </table>
+                <p>
+                    Uma escultura surpreendente apareceu misteriosamente durante a noite em uma praça<br>
+                    movimentada da cidade. A obra, que retrata uma figura abstrata com mais de 10 metros<br> de
+                    altura, tem despertado a curiosidade e admiração dos transeuntes. A identidade do<br>
+                    artista
+                    ainda é desconhecida, deixando os moradores e autoridades locais intrigados com<br> o
+                    significado por trás dessa impressionante criação.
+                </p>
+            </ul>
 
-        <table>
-            <article>
-                <td>
-                    <img width="250" height="150"
-                        src="https://media.istockphoto.com/id/171576481/pt/foto/crescem-no-deserto.jpg?s=612x612&w=0&k=20&c=i3XxbCc5R2s3MWr9X3zyKxzmbmBDAdjn_rGFHWKbR30="
-                        alt="natureza">
-                </td>
-                <td>
-                    <h5><a href="natureza.html">Natureza</a></h5>
-                    <small>
-                        Biólogos descobriram uma nova espécie de planta que consegue florescer e prosperar em condições extremamente<br> áridas e desafiadoras no deserto. Essa planta possui adaptações únicas que lhe permitem sobreviver em altas temperaturas,<br> falta de água e solo pouco fértil. Essa descoberta traz esperança para a agricultura em regiões áridas e pode ajudar na busca por<br> soluções para a escassez de água.
-                    </small>
-                </td>
-            </article>
-        </table>
+            <ul>
+                <h3><a href="tecnologia.html">Tecnologia</a></h3>
+                <img width="250" height="200" src="https://t2.tudocdn.net/368899?w=1920" alt="tecnologia">
+                <p>
+                    Uma renomada empresa de tecnologia revelou seu mais recente avanço: um smartphone
+                    holográfico.<br> O dispositivo revolucionário projeta imagens tridimensionais no ar,
+                    permitindo que os usuários interajam<br> com aplicativos, jogos e conteúdo de uma maneira
+                    totalmente nova. Com essa inovação, a empresa<br> promete transformar a experiência dos
+                    smartphones e abrir caminho para uma nova era de interfaces de usuário.
+                </p>
+            </ul>
 
-        <table>
-            <article>
-                <td>
-                    <img width="250" height="150"
-                        src="https://www.awebic.com/wp-content/uploads/2021/06/clay-banks-w_qTfiPbjbg-unsplash-1.jpg"
-                        alt="leitura">
-                </td>
-                <td>
-                    <h5><a href="leitura.html">Leitura imperdível</a></h5>
-                    <small>
-                        Um escritor anônimo surpreendeu o mundo literário ao publicar um romance cativante que se tornou um sucesso instantâneo.<br> O livro, intitulado "Caminhos da Imaginação", encantou leitores de todas as idades com sua trama envolvente e personagens <br>memoráveis. Críticos literários estão intrigados com a identidade misteriosa do autor e especulam sobre sua<br> origem e talento excepcional.
-                    </small>
-                </td>
-            </article>
-        </table>
+            <ul>
+                <h3><a href="dinossauro.html">Descoberta Paleontológica</a></h3>
+                <img width="250" height="200"
+                    src="https://f.i.uol.com.br/fotografia/2019/06/26/15615557525d13732887d95_1561555752_3x2_md.jpg"
+                    alt="dinossauro">
+                <p>
+                    Um adolescente prodígio da área de paleontologia fez uma descoberta notável ao identificar uma
+                    nova espécie<br>de dinossauro. Com apenas 16 anos, o estudante encontrou fósseis de um animal
+                    pré-histórico até então<br> desconhecido, que agora recebeu o nome científico de "Megaraptor
+                    juvenilis". Essa descoberta está ajudando<br> os cientistas a entender melhor a diversidade dos
+                    dinossauros e seu contexto evolutivo.
+                </p>
+            </ul>
 
-        <table>
-            <article>
-                <td>
-                    <img width="250" height="150"
-                        src="https://static.portaldaindustria.com.br/portaldaindustria/noticias/media/imagem_plugin/energiacomposio.jpg"
-                        alt="Energia Ilimitada">
-                </td>
-                <td>
-                    <h5><a href="energia.html">Energia Ilimitada</a></h5>
-                    <small>
-                        Pesquisadores em uma instituição de renome anunciaram a descoberta de uma nova fonte de energia que promete ser<br> ilimitada e amigável ao meio ambiente. Conhecida como "energia cósmica", essa tecnologia revolucionária aproveita<br> a energia presente no espaço sideral e a converte em eletricidade utilizável. Essa descoberta promete uma revolução<br> energética global, eliminando a dependência de combustíveis fósseis e mitigando os efeitos das mudanças climáticas.
-                    </small>
-                </td>
-            </article>
-        </table>
-    </header>
-    <fieldset> 
-        <footer>
-            &copy;Todos os direitos reservados
-            <div style="text-align: center;"></style>
-            <a href="Contato">&nbsp;Contato </a>&nbsp; 
-            <p>
-              Siga a página nas redes sociais  
-            </p> 
-            </footer>
-        
-        
-    </footer>
-    </fieldset>
-    
+            <ul>
+                <h3><a href="mar.html">Descoberta nas profundezas</a></h3>
+                <img width="250" height="200" src="https://nomadesdigitais.com/wp-content/uploads/2014/05/sub1.jpg"
+                    alt="mar">
+                <p>
+                    Uma expedição científica revelou a existência de uma cidade submarina surpreendente localizada
+                    nas profundezas<br>do oceano. A cidade, batizada de "Atlântis Profunda", possui uma arquitetura
+                    deslumbrante e estruturas impressionantes,<br> sugerindo uma civilização avançada que existiu há
+                    milênios. A descoberta está intrigando arqueólogos e pesquisadores<br> marinhos, que agora estão
+                    empenhados em desvendar os segredos dessa antiga metrópole submersa.
+                </p>
+            </ul>
+
+            <ul>
+                <h3><a href="robotica.html">Robótica</a></h3>
+                <img width="250" height="200"
+                    src="https://integrabauru.com.br/wp-content/uploads/2020/01/imagem-cirurgia-robotica.jpg"
+                    alt="robotica">
+                <p>
+                    A robótica médica alcançou um novo patamar com o desenvolvimento de robôs autônomos capazes de
+                    realizar cirurgias<br> complexas com precisão e segurança. Esses robôs cirúrgicos avançados
+                    possuem algoritmos sofisticados e sensores<br> avançados que lhes permitem executar
+                    procedimentos delicados com maior eficiência e menor risco de erro humano.<br> A introdução
+                    desses robôs autônomos na medicina tem o potencial de revolucionar a área cirúrgica e
+                    melhorar<br> os resultados para os pacientes.
+                </p>
+            </ul>
+
+            <ul>
+                <h3><a href="natureza.html">Natureza</a></h3>
+                <img width="250" height="200"
+                    src="https://media.istockphoto.com/id/171576481/pt/foto/crescem-no-deserto.jpg?s=612x612&w=0&k=20&c=i3XxbCc5R2s3MWr9X3zyKxzmbmBDAdjn_rGFHWKbR30="
+                    alt="natureza">
+                <p>
+                    Biólogos descobriram uma nova espécie de planta que consegue florescer e prosperar em condições
+                    extremamente<br> áridas e desafiadoras no deserto. Essa planta possui adaptações únicas que lhe
+                    permitem sobreviver em altas temperaturas,<br> falta de água e solo pouco fértil. Essa
+                    descoberta traz esperança para a agricultura em regiões áridas e pode ajudar na busca por<br>
+                    soluções para a escassez de água.
+                </p>
+            </ul>
+
+            <ul>
+                <h3><a href="leitura.html">Leitura imperdível</a></h3>
+                <img width="250" height="200"
+                    src="https://www.awebic.com/wp-content/uploads/2021/06/clay-banks-w_qTfiPbjbg-unsplash-1.jpg"
+                    alt="leitura">
+                <p>
+                    Um escritor anônimo surpreendeu o mundo literário ao publicar um romance cativante que se tornou
+                    um sucesso instantâneo.<br> O livro, intitulado "Caminhos da Imaginação", encantou leitores de
+                    todas as idades com sua trama envolvente e personagens <br>memoráveis. Críticos literários estão
+                    intrigados com a identidade misteriosa do autor e especulam sobre sua<br> origem e talento
+                    excepcional.
+                </p>
+            </ul>
+
+            <ul>
+                <h3><a href="energia.html">Energia Ilimitada</a></h3>
+                <img width="250" height="200"
+                    src="https://static.portaldaindustria.com.br/portaldaindustria/noticias/media/imagem_plugin/energiacomposio.jpg"
+                    alt="Energia Ilimitada">
+                <p>
+                    Pesquisadores em uma instituição de renome anunciaram a descoberta de uma nova fonte de energia
+                    que promete ser<br> ilimitada e amigável ao meio ambiente. Conhecida como "energia cósmica",
+                    essa tecnologia revolucionária aproveita<br> a energia presente no espaço sideral e a converte
+                    em eletricidade utilizável. Essa descoberta promete uma revolução<br> energética global,
+                    eliminando a dependência de combustíveis fósseis e mitigando os efeitos das mudanças climáticas.
+                </p>
+            </ul>
+        </article>
+
+
+
+
+
+        <ul>
+            <h2>Notícias Populares</h2>
+            <table border="1">
+
+                <thead>
+                    <tr>
+                        <th colspan="4">Notícias mais populares da semana</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Submarino perdido</td>
+                        <td>20/06/2023</td>
+                        <td>13 mil visualizações</td>
+                    </tr>
+                    <tr>
+                        <td>Madonna é internada </td>
+                        <td>27/06/2023</td>
+                        <td>11 mil visualizações</td>
+                    </tr>
+                    <tr>
+                        <td>Novo lançamento da Apple </td>
+                        <td>23/06/2023</td>
+                        <td>10 mil visualizações</td>
+                    </tr>
+                    <tr>
+                        <td>Dolar aumenta bolsa de valores </td>
+                        <td>21/06/2023</td>
+                        <td>9 mil visualizações</td>
+                    </tr>
+                    <tr>
+                        <td>Veja fotos da festa do orgulho pelo mundo </td>
+                        <td>28/06/2023</td>
+                        <td>8 mil visualizações</td>
+                    </tr>
+                    <tr>
+                        <td>"Molécula de vida"Entenda a descoberta</td>
+                        <td>28/06/2023</td>
+                        <td>7 mil visualizações</td>
+                    </tr>
+                    <tr>
+                        <td>Automoveis com redução de preço</td>
+                        <td>29/06/2023</td>
+                        <td>6 mil visualizações</td>
+                    </tr>
+                    <tr>
+                        <td>Pescaria em alto mar</td>
+                        <td>25/06/2023</td>
+                        <td>5 mil visualizações</td>
+                    </tr>
+                    <tr>
+                        <td>Os maiores festivais de 2023</td>
+                        <td>19/06/2023</td>
+                        <td>4 mil visualizações</td>
+                    </tr>
+                    <tr>
+                        <td>Tsunami brasileiro, o que aconteceu?</td>
+                        <td>05/06/2023</td>
+                        <td>3 mil visualizações</td>
+                    </tr>
+                </tbody>
+            </table>
+        </ul>
+
+
+        <ul>
+            <h2 id="melhores-autores">Melhores autores de notícias</h2>
+            <selection>
+                <ol>
+                    <li>Carolina Prado (42 Notícias)</li>
+                    <li>Renata Cazuza (38 Notícias)</li>
+                    <li>Maria Júlia (35 Notícias)</li>
+                    <li>Fernanda Assis (32 Notícias)</li>
+                    <li>Adriane Filgueira (31 Notícias)</li>
+                    <li>Victória Prado (29 Notícias)</li>
+                    <li>Gabriela Costa (25 Notícias)</li>
+                    <li>Yasmin Soares (20 Notícias)</li>
+                    <li>Mathias Pedroso (15 Notícias)</li>
+                </ol>
+            </selection>
+        </ul>
+
+        <selection>
+            <ul>
+                <h2 id=Noticiaslocais>Noticias locais</h2>
+
+                <strong>Estudantes constroem robôs com inteligência emocional</strong>
+                <p>Uma equipe de estudantes prodígios em robótica alcançou um avanço notável ao criar robôs com
+                    inteligência emocional.
+                </p>
+                <br>
+                <strong>Cidade inaugura parque temático inspirado em contos de fadas</strong>
+                <p>A cidade local anunciou a inauguração de um parque temático encantador, inspirado nos contos de fadas
+                    mais amados.<br> O parque oferece a oportunidade de vivenciar aventuras mágicas e explorar cenários
+                    deslumbrantes, com a<br> presença de personagens icônicos dos contos de fadas. </p>
+
+                <h2 id=Política>Política</h2>
+                <strong>Partido político lança programa de inclusão e diversidade</strong>
+                <p>Um partido político proeminente lançou um programa abrangente de inclusão e diversidade, visando
+                    promover<br>a igualdade de oportunidades e a representatividade.
+                </p>
+                <br>
+                <strong>Nova política de transparência promete combater a corrupção</strong>
+                <p>O governo implementou uma nova política de transparência e prestação de contas para combater a
+                    corrupção.<br> Essa política inclui a criação de órgãos de fiscalização independentes, maior acesso
+                    à informação pública, leis de<br> proteção a denunciantes e penas mais rigorosas para crimes
+                    relacionados à corrupção.
+                </p>
+
+
+                <h2 id=Esportes>Esportes</h2>
+                <strong>Equipe de futebol de amputados ganha campeonato mundial</strong>
+                <p>Em um torneio emocionante, uma equipe de futebol composta por jogadores amputados venceu o
+                    Campeonato<br> Mundial de Futebol Adaptado.
+                </p>
+                <strong>Jogador de tênis faz retorno surpreendente após lesão</strong>
+                <p>Um jogador de tênis renomado faz um retorno emocionante às quadras após uma lesão que o afastou do
+                    esporte<br> por um longo período. Com determinação e perseverança, ele supera os desafios físicos e
+                    mentais, retomando sua<br> forma e alcançando grandes vitórias em torneios importantes. </p>
+
+                <h2 id=Entretenimento>Entretenimento</h2>
+                <strong>Filme de super-herói bate recorde de bilheteria no fim de semana de estreia</strong>
+                <p>O aguardado filme de super-herói, com efeitos visuais impressionantes e uma história envolvente,
+                    estreou nos cinemas<br> batendo recordes de bilheteria. Os fãs encheram as salas de cinema para
+                    assistir às aventuras épicas dos seus heróis<br> favoritos, resultando em uma arrecadação sem
+                    precedentes.</p>
+                <strong>Astro da música anuncia turnê mundial espetacular</strong>
+                <p>Um renomado astro da música surpreende os fãs ao anunciar uma turnê mundial que promete ser
+                    espetacular e<br> inesquecível. Com coreografias incríveis, produção de palco deslumbrante e
+                    performances emocionantes, o cantor<br> promete levar o público a uma jornada musical inigualável.
+                </p>
+            </ul>
+        </selection>
+
+        <selection>
+            <h2 id="Assistavideos">Assista em Vídeos</h2>
+            <h3>Submarino da OceanGate: Fotos e vídeo mostram imagens dos destroços do submersível Titan</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/XsTl5Nv2hLA"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+            <h3>‘Relógio do apocalipse’ alerta para um possível fim do planeta</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/U9in5ST8RX4"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+            <h3>Documentário | A batalha existencial de Portugal contra o avanço do mar</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/PlumCK5WotM"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+            <h3>Por que as pessoas estão ABANDONANDO Lisboa?!</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/VOa_wNL2nA8"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+            <h3>A VERDADE Sobre Dubai..</h3>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/nYdEb-19boA"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowfullscreen></iframe>
+
+        </selection>
+        <hr />
+
+        <footer class="contato">
+            &copy; Todos os direitos reservados SoulCode Academy e Porto Seguro <br>
+            <a href="contato.html">Contato</a> &nbsp;
+            <a href="Facebook">linkedln</a> &nbsp;
+            <a href="Instagram">Instagram</a> &nbsp;
+            <a href="Twitter">Twitter</a>
+
+        </footer>
+
+    </main>
 </body>
 
 </html>
