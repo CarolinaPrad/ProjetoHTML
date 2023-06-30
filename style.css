@@ -12,6 +12,12 @@ img {
     text-align: center;
 }
 
-.navegacao{
-    background-color: blue;
+.quadrado1 {
+   background-color: #E4D9FF;
+   color: #1E2749;
+}
+
+.titulo1 {
+    background-color: #273469;
+    color: beige;
 }
